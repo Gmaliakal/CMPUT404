@@ -1,8 +1,4 @@
 import requests
-
-r = requests.get("http://www.google.com/")
-con = r.content
+r = requests.get("https://raw.githubusercontent.com/Gmaliakal/CMPUT404/master/newrequests.py")
+con = r.text
 print(con)
-
-#2.28.1
-#.text option at the end of request library
